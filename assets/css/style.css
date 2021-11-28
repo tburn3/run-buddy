@@ -1,6 +1,7 @@
-{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,7 +30,7 @@ header a{
 
 header nav {
     float: right;
-    margin: 7px 0
+    margin: 7px 0;
 }
 
 header nav ul li {
@@ -42,18 +43,10 @@ header nav ul li a {
     font-size: 22px;
 }
 
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-    display: inline;
-}
-
 footer {
     background: #fce138;
     width: 100%;
-    padding: 40px 35x;
+    padding: 40px 35px;
 }
 
 footer h2 {
@@ -72,3 +65,63 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+section {
+    padding: 60px;
+}
+
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+/* Hero form End */
+
+.hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+/* Hero Form End */
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #02e76;
+    display: 7px 15px;
+    font-size: 16px;
+    color: #02e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Hero Styles End */
